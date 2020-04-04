@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-<<<<<<< HEAD
   "engines": {
     "node": "v12.13.1",
     "npm": "6.12.1"
@@ -13,13 +12,6 @@
     "start": "node index.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
-=======
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> first commit
   },
   "keywords": [],
   "author": "",
@@ -29,11 +21,8 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
     "socket.io": "^2.3.0"
-<<<<<<< HEAD
   },
   "devDependencies": {
     "concurrently": "^4.0.1"
-=======
->>>>>>> first commit
   }
 }
